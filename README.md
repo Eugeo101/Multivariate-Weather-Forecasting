@@ -56,16 +56,16 @@ Forecast daily values based on the **mean temperature**, **humidity**, and **win
 
 ### 4️⃣ Results  
 
-| **Model**              | **Yearly** | **Yearly** | **Daily** | **Daily**   |
-|-------------------------|-------------------------|------------------------|
-|                         | **MAE** | **MAPE (%)** | **MAE** | **MAPE (%)** |
-| Naive Forecasting       | 2.45     | 9.33         | 1.2      | 4.7         |
-| SARIMA                  | 2.16     | 8.32         | 1.209    | 4.7         |
-| VAR                     | 2.16     | 8.32         | 1.209    | 4.7         |
-| Facebook Prophet        | 1.57     | 5.96         | 1.16     | 4.62        |
-| XGBoost                 | 1.91     | 7.25         | 0.96     | 3.7         |
-| LSTM                    | NaN      | NaN          | 1.49     | 6.0         |
+| **Model**              | **Yearly MAE** | **Yearly MAPE (%)** | **Daily MAE** | **Daily MAPE (%)** |
+|------------------------|----------------|---------------------|---------------|--------------------|
+| Naive Forecasting      | 2.45           | 9.33                | 1.2           | 4.7                |
+| SARIMA                 | 2.16           | 8.32                | 1.209         | 4.7                |
+| VAR                    | 2.16           | 8.32                | 1.209         | 4.7                |
+| Facebook Prophet       | 1.57           | 5.96                | 1.16          | 4.62               |
+| XGBoost                | 1.91           | 7.25                | 0.96          | 3.7                |
+| LSTM                   | NaN            | NaN                 | 1.49          | 6.0                |
 
+#### Best Model:  
 #### Best Model:  
 - **XGBoost**: Provided the best daily forecast with **MAE = 0.96** and **MAPE = 3.7%**.  
 
