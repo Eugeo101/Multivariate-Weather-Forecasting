@@ -47,7 +47,12 @@ Forecast daily values based on the **mean temperature**, **humidity**, and **win
   - **XGBoost**: Hyperparameters fine-tuned for optimal performance.  
 
 - **Deep Learning Model**:  
-  - **LSTM**: Used with a learning rate of **0.0001** (Adam optimizer), 128 hidden units, and two dense layers (128 → 8 → 1).  
+  - **LSTM**: Used with a learning rate of **0.0001** (Adam optimizer), 128 hidden units, and two dense layers (128 → 8 → 1).
+
+#### LSTM Model Architecture:  
+- **LSTM (128 hidden units)** → **Dense (8 units)** → **Dense (1 unit)**.  
+- Adam optimizer with a learning rate of **0.0001**.  
+  
 
 #### Cross-Validation:  
 - Implemented **TimeSeriesSplit** for model validation to ensure a realistic evaluation of time-dependent models.
@@ -66,7 +71,6 @@ Forecast daily values based on the **mean temperature**, **humidity**, and **win
 | LSTM                   | NaN            | NaN                 | 1.49          | 6.0                |
 
 #### Best Model:  
-#### Best Model:  
 - **XGBoost**: Provided the best daily forecast with **MAE = 0.96** and **MAPE = 3.7%**.  
 
 ---
@@ -81,11 +85,6 @@ Forecast daily values based on the **mean temperature**, **humidity**, and **win
 #### Facebook Prophet Plots:  
 - Seasonal components were visualized using Prophet's `plot_components()` function.  
 - Displayed yearly seasonal trends and holiday effects.
-
-#### LSTM Model Architecture:  
-- **LSTM (128 hidden units)** → **Dense (8 units)** → **Dense (1 unit)**.  
-- Adam optimizer with a learning rate of **0.0001**.  
-
 ---
 
 ## 🔧 Tools and Libraries  
