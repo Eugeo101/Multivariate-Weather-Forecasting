@@ -56,7 +56,7 @@ Forecast daily values based on the **mean temperature**, **humidity**, and **win
 
 ### 4️⃣ Results  
 
-| **Model**              | **Yearly**              | **Daily**              |
+| **Model**              | **Yearly** | **Yearly** | **Daily** | **Daily**   |
 |-------------------------|-------------------------|------------------------|
 |                         | **MAE** | **MAPE (%)** | **MAE** | **MAPE (%)** |
 | Naive Forecasting       | 2.45     | 9.33         | 1.2      | 4.7         |
