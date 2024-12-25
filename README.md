@@ -94,7 +94,7 @@ Forecast daily values based on the **mean temperature**, **humidity**, and **win
 
 ---
 
-## 📂 File Structure  
+## 📂 File Structure  (go to google)[https://www.google.com/]
 - `data/`: Input dataset.  
 - `notebooks/`: Jupyter Notebooks with code and analysis.  
 - `src/`: Preprocessing, modeling, and evaluation scripts.  
